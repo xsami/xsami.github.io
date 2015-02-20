@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="icon.ico">
+	<title>Scoreboard App</title>
+  <!--JQUERY-->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!--Soccer Ball-->
+  <script type="text/javascript" src="soccer_ball.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+  <style type="text/css">
+  	ul { list-style-type: none; }
+    ul li { display: inline; }
+    .logo{ height: 100px; width: 100px; }
+    a:hover{ text-decoration: none; color: red;}
+
+	</style>
+<style type="text/css" src="download.scss"></style>
+
+	<script type="text/javascript">
+		var Go = function () {
+			alert('Please dont touch me sempai-sama!');
+		};
+	</script>
+
+</head>
+<body>
+	 <div class="container">
+      <div class="header">
+      	<nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">SC TRACKER</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" id="home" class="active">Home</a></li>
+              <li><a href="#" id="about">About</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>		
+      	
+			<p align="center"> <img src="icon.ico" class="logo" /></p>
+        <h1 align="center">Welcome to SC Tracker</h1>
+     <!-- </p>-->
+        <h2 class="h3" align="center"><small>Another tool for recording soccer game plays</small></h2><br/>
+			<ul align="center">
+				<li><a href="admin.html" class="btn btn-primary">Start Admin</a></li>
+				<li><a href="#"> ^_^ </a></li>
+        <li><a href="user.html" class="btn btn-primary">Start Client</a></li>
+			</ul>
+			<br>
+			<div class="jumbotron">
+				<!-- THIS IS WHERE THE REQUIREMENTS GOES-->
+				<table class="table"><thead><tr><td><h3>Admin</h3></td><td><h3> User</h3></td></tr></thead>
+  				<tbody>
+  				  <tr> 
+              <td>The administrator is the only one who can enter data into the database.</td>
+              <td>The user can only see the plays previously introduced by an admin user and recreate.</td>
+            </tr>
+  				</tbody>
+				</table>
+			</div><!--/.jumbotron-->
+
+		</div><!--/.header-->
+    <div class="footer">
+     
+    </div>
+	</div><!--//.container-->
+
+</body>
+</html>
