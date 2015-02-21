@@ -7,6 +7,7 @@ var go = function() {
     else{
         d = +a + +d;
     }
+    console.log(d);
     $('img').rotate({animateTo:d});
 };
 setInterval( 'go()', 700);
