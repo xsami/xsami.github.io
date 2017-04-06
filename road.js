@@ -10,4 +10,4 @@ var go = function() {
     console.log(d);
     $('img').rotate({animateTo:d});
 };
-setInterval( 'go()', 700);
+setInterval( go(), 700);
